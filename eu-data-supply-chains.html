@@ -1,0 +1,48 @@
+<html>
+
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td {
+    padding: 15px;
+}
+</style>
+</head>
+
+<body vocab="http://schema.org/">
+
+  <p>A reference table to record exchanges in data related goods and services involving European companies.</p>
+
+  <p>Such exchanges are recorded based on documents made publicly available on the web.
+    Typically these are press releases or list of customers posted on the web site of the company
+    supplying the good or service</p>
+
+  <p>When the exact time at which such an exchange began and ended are known, they are so listed.</p>
+
+  <p>When they are not, the start date listed is the time at which I first became aware of the public
+  document on which the existence of the exchange is mentioned.</p>
+
+<table>
+  <tr>
+    <th>Customer</th>
+    <th>Provider</th>
+    <th>Good/Service</th>
+    <th>First Observed</th>
+    <th>Ended</th>
+    <th>Public Evidence</th>
+  </tr>
+  <tr typeof="BuyAction">
+    <td property="agent" href="http://dbpedia.org/page/TomTom">TomTom</td>
+    <td property="seller" href="http://dbpedia.org/resource/Neo_Technology">Neo Technology</td>
+    <td property="object" href="http://dbpedia.org/page/Neo4j">Neo4J graph database</td>
+    <td property="startTime">2015-02-22</td>
+    <td property="endTime"></td>
+    <td property="http://purl.org/spar/cito/citesAsEvidence" href="http://neo4j.com/customers/"><a href="http://neo4j.com/customers/">Neo4J list of customers as of 2015-02-22</a></td>
+  </tr>
+</table>
+
+</body>
+</html>
